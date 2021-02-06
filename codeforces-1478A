@@ -12,9 +12,9 @@ int main()
 			ct[i] = 0 ; 
 		}
 		for(int i=1 ; i<=n ; i++){
-			int u ; 
+			int u ;   //declaring n numbers inputs
 			cin>>u ; 
-			ct[u]++;
+			ct[u]++;   //increasing the value of u index
 		}
 		int mx = 0 ; 
 		for(int i=1 ; i<=n ; i++){
