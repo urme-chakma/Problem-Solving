@@ -1,0 +1,32 @@
+
+#include<bits/stdc++.h>
+using namespace std ; 
+
+int main(){
+	// string str; 
+	// cin>>str;
+	// string str2;
+	// cin>>str2;
+	// string str3 = str  + str2;
+	// cout<<str3;
+
+	// string str, str2;
+	// cin>>str>>str2;
+	// int size=0;
+	// int size2 = 0 ; 
+	// for(int i=0 ; i<str.size() ; i++){
+	// 	size++;
+	// }
+
+	// for(int i=0 ; i<str2.size() ; i++){
+	// 	size2++;
+	// }
+	// cout<<size<<" "<<size2<<endl;
+	// cout<<str+str2<<endl;
+	// char temp = str[0];
+	// str[0] = str2[0];
+	// str2[0] = temp;
+	
+	// cout<<str<<" "<<str2<<endl;
+
+}
