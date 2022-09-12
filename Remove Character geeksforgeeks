@@ -1,0 +1,33 @@
+https://practice.geeksforgeeks.org/problems/remove-character3815/1
+
+//using vector
+#include<bits/stdc++.h>
+using namespace std ; 
+int main(){
+	string s, s1;
+	cin>>s>>s1;
+	vector<int> v(26, 0);
+
+	for(int i=0; i<s.size(); i++){
+		v[s[i] - 'a']++;
+	}
+
+
+	// for(int i=0 ; i<26; i++){
+	// 	cout<<i<<" : "<<v[i]<<endl;
+	// }
+
+	for(int i=0 ; i<s1.size() ; i++){
+		if(v[s1[i] - 'a'] != 0){
+			v[s1[i]-'a'] = 0;
+		}
+	}
+	string str = "";
+	for(int i=0 ; i<s.size(); i++){
+		if(v[s[i] - 'a'] != 0){
+			str.push_back(s[i]);
+		}
+	}
+
+	cout<<str<<endl;
+}
